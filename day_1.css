@@ -1,0 +1,30 @@
+:root {
+    font-size: 16px;
+    --font-family: 'Roboto';
+    --title-color: #3278cf;
+    --main-title-color: #174885;
+}
+
+* {
+    font-family: var(--font-family);
+}
+
+.container {
+    margin: 10vh;
+    text-align: center;
+}
+
+.title,
+.section-title {
+    text-transform: capitalize;
+}
+
+.title {
+    color: var(--main-title-color);
+    font-size: 4em;
+}
+
+.section-title {
+    color: var(--title-color);
+    font-size: 3em;
+}
