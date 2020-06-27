@@ -1,0 +1,29 @@
+:root {
+	--target-color: #fa7d09;
+}
+
+.square1,
+.square2,
+.square3,
+.square4 {
+	animation: animate-to-color 2s forwards;	
+	transition: background .2s ease-in-out;
+}
+
+.square2 {
+	animation-delay: .2s;
+}
+
+.square3 {
+	animation-delay: .4s;
+}
+
+.square4 {
+	animation-delay: .6s;
+}
+
+@keyframes animate-to-color {
+	to {
+		background: var(--target-color);
+	}
+}
